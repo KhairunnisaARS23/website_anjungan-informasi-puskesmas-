@@ -1,0 +1,33 @@
+/* ===== GLOBAL BACKGROUND ===== */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  color: #0f172a;
+
+  background:
+    linear-gradient(
+      rgba(15, 76, 129, 0.6),
+      rgba(50, 73, 80, 0.6)
+    ),
+    url("../img/bg-landscape.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* 📱 HP / PORTRAIT */
+@media (orientation: portrait) {
+  body {
+    background:
+      linear-gradient(
+        rgba(15, 76, 129, 0.6),
+      rgba(50, 73, 80, 0.6)
+      ),
+      url("../img/bg-portrait.jpg");
+
+    background-size: cover;
+    background-position: center;
+  }
+}
